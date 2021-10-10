@@ -1,0 +1,101 @@
+<!-- <!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+
+<body style="background-color: rgb(205, 170, 238);">
+    <h2>열 합치기</h2>
+    <p>th 태그의 colspan 속성에, 합치고 싶은 열의 개수 속성값을 적어주면 된다.</p>
+
+    <table style="width:500px">
+        <tr>
+            <th colspan="3">학생정보</th>
+            <th>학생이름</th>
+        </tr>
+        <tr>
+            <th>1</th>
+            <td>1학년</td>
+            <td>1반</td>
+            <td>김철수</td>
+        </tr>
+        <tr>
+            <th>1</th>
+            <td>1학년</td>
+            <td>2반</td>
+            <td>김영희</td>
+        </tr>
+        <tr>
+            <th>2</th>
+            <td>2학년</td>
+            <td>1반</td>
+            <td>이철수</td>
+        </tr>
+        <tr>
+            <th>2</th>
+            <td>2학년</td>
+            <td>2반</td>
+            <td>이영희</td>
+        </tr>
+    </table>
+</body>
+
+</html> -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+
+<body style="background-color: rgb(205, 170, 238);">
+    <h2>열 합치기</h2>
+    <p>th, td 태그의 rowspan 속성에, 합치고 싶은 행의 개수를 적어주면 된다.</p>
+
+    <table style="width:500px">
+        <tr>
+            <th colspan="3">학생정보</th>
+            <th>학생이름</th>
+        </tr>
+        <tr>
+            <th rowspan="2">1</th>
+            <td>1학년</td>
+            <td>1반</td>
+            <td>김철수</td>
+        </tr>
+        <tr>
+            <td>1학년</td>
+            <td>2반</td>
+            <td>김영희</td>
+        </tr>
+        <tr>
+            <th rowspan="2">2</th>
+            <td>2학년</td>
+            <td>1반</td>
+            <td>이철수</td>
+        </tr>
+        <tr>
+            <td>2학년</td>
+            <td>2반</td>
+            <td>이영희</td>
+        </tr>
+    </table>
+</body>
+
+</html>
